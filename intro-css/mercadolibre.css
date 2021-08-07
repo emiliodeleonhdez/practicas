@@ -1,0 +1,88 @@
+body{
+  font-family: Proxima Nova,-apple-system,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+  margin:0;
+}
+.logo{
+  margin-left: 10px;
+  padding-top: 20px;   
+}
+
+.principal{
+
+background-color:#fff059;
+height: 350px;
+
+}
+.cuadro-gris{
+    
+    background-color:#e6e6e6;
+    height: 350px;
+
+}
+
+.card {
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 30%;
+  margin-right: auto;
+  margin-left: auto;
+  background-color: white;
+  border-radius: 3%;
+  position: relative;
+  top: -150px;
+  
+}
+
+.container {
+  padding: 2px 16px;
+}
+.button {
+  background-color:#3483fa;
+  border-radius:10%;
+  border:none;
+  color: white;
+  padding: 20px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-left: 20%;
+  font-weight: bold;
+}
+.existing-user{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+  color:#3483fa;
+  font-weight: bold;
+
+}
+.container-title{
+
+  margin-top: 50px;
+  margin-bottom: 50px;
+  text-align: center;
+}
+.footer{
+
+  background-color: white;
+  height: 50px;
+
+}
+
+.priv{
+
+ color: black;
+ text-align: center;
+
+}
+
+.copyright{
+ text-align: center;
+ color: gray;
+}
+
+ 
+  /* Add some padding inside the card container */
