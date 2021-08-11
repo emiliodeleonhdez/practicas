@@ -15,7 +15,7 @@ h1{
 
 .main-container{
     display:flex;
-    height: 750px;
+    max-height: 100vh;
     background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/9c5457b8-9ab0-4a04-9fc1-e608d5670f1a/46b46de8-a269-4a25-b8cf-56c614b4b1f4/MX-en-20210719-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
     flex-direction: row;
     justify-content: space-between;
@@ -40,29 +40,43 @@ h1{
     display: flex;
     background-color: black;
     height: 400px;
-    margin: 5px;
+    margin-top: 5px;
     align-items: center;
+    flex-direction: row;
+/*     flex-direction: column; */
 }
+
+@media (min-width:576px){
+
+.sub-container{
+    
+    display: flex;
+    background-color: black;
+    height: 400px;
+    margin-top: 5px;
+    align-items: center;
+    flex-direction: row;
+}
+
+} 
 .sub-container-text{
 
     margin: 50px;
     height: 350px;
     width: 100%;
-/*     border: 2px solid green; */
     align-items: center;
 }
 .sub-container-image{
 
-    display: flex;
     margin: 50px;
     height: 350px;
     width: 100%;
-/*     border: 2px solid green; */
     justify-content: center;
 }
 .side-image{
 
-    width: 400px;
+    max-height: 100%;
+    max-width: 100%;
 
 }
 
@@ -84,11 +98,7 @@ h1{
     color:silver;
 
 }
-.logo{
 
-    height: 100px;
-    width: 100px;
-}
 
 .logo{
 

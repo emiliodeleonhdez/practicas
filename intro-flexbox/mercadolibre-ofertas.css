@@ -8,20 +8,21 @@ body{
   
     display:flex;
     background-color:gray;
-    width: auto;
-    height: auto;
+    width: 700px;
     border: 1px solid #000;
     flex-direction: column;
     justify-content: space-between;
-    flex-wrap:wrap;
+    align-items: center;
+    /*flex-wrap:wrap;*/
+
     
   }
 .compu{
     
     display: flex;
-    background-color: white;
+    background-color: rgb(136, 46, 46);
     width: auto;
-    height: auto;
+    /*height: auto;*/
     margin: 5px;
     /*flex-wrap:wrap;*/
 
@@ -29,15 +30,16 @@ body{
 .imagen{
 
     margin: 5px;
-    width: auto;
-    height: auto;
+    width: 300px;
+    height: 300px;
+    /*height: auto;*/
     /*border: 1px solid #000;*/
 }
 .contenido{
 
     background-color: white;
     margin: 5px;
-    width: 100%;
+    width: auto;
     /*border: 1px solid #000;*/
 
 }
@@ -61,7 +63,7 @@ body{
 
     background-color: #3483fa;
     text-align: center;
-    width: 20%;
+    width: auto;
     font-weight: bold;
     color:white;
     border-radius: 5px;
